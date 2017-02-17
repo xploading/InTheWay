@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="409" id="KGk-i7-Jjw" customClass="FindHomeViewCell" customModule="XPInTheWay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="409"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="408"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yxO-3J-HXz">
+                        <rect key="frame" x="30" y="203.5" width="55" height="2"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="SiY-wf-2hX"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmF-gy-Gsh">
+                        <rect key="frame" x="159" y="30" width="2" height="100"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="2" id="Ymn-f9-g0Z"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVZ-2O-PJa">
+                        <rect key="frame" x="159" y="280" width="2" height="98.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="2" id="rkD-aN-nz2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KXv-pg-hzV">
+                        <rect key="frame" x="235" y="203.5" width="55" height="2"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="w48-Xt-3Ap"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RO1-T0-KbC">
+                        <rect key="frame" x="115" y="160" width="90" height="90"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="K04-A7-27i"/>
+                            <constraint firstAttribute="width" constant="90" id="iX2-mP-9OT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <state key="normal" title="发现周边">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyj-Fk-yuU">
+                        <rect key="frame" x="207.5" y="80" width="70" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="AMS-Xs-Vbz"/>
+                            <constraint firstAttribute="width" constant="70" id="coh-ed-vRj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="酒店" image="hotel.png">
+                            <color key="titleColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbO-DD-gLy">
+                        <rect key="frame" x="43" y="289.5" width="70" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="R9M-pY-5Sq"/>
+                            <constraint firstAttribute="width" constant="70" id="tHl-EP-ee4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="购物" image="shoping.png">
+                            <color key="titleColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cC0-gB-XLk">
+                        <rect key="frame" x="42.5" y="80" width="70" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="4fB-Nm-g6Z"/>
+                            <constraint firstAttribute="width" constant="70" id="cJQ-QV-T7w"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="美食" image="food.png">
+                            <color key="titleColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5u0-Ui-xqC">
+                        <rect key="frame" x="208" y="289.5" width="70" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="842-th-a8d"/>
+                            <constraint firstAttribute="width" constant="70" id="ADa-Al-cfV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="景点" image="trive.png">
+                            <color key="titleColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="dmF-gy-Gsh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="1df-b7-7Va"/>
+                    <constraint firstItem="5u0-Ui-xqC" firstAttribute="centerY" secondItem="LVZ-2O-PJa" secondAttribute="centerY" constant="-20" id="7Vw-N2-mde"/>
+                    <constraint firstItem="RO1-T0-KbC" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="8kN-fE-uTK"/>
+                    <constraint firstItem="RO1-T0-KbC" firstAttribute="leading" secondItem="yxO-3J-HXz" secondAttribute="trailing" constant="30" id="Car-w9-0YG"/>
+                    <constraint firstItem="LVZ-2O-PJa" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="CbJ-ZZ-F75"/>
+                    <constraint firstItem="Zyj-Fk-yuU" firstAttribute="centerY" secondItem="cC0-gB-XLk" secondAttribute="centerY" id="FpH-N9-iik"/>
+                    <constraint firstItem="KXv-pg-hzV" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ftq-JX-gPU"/>
+                    <constraint firstItem="RO1-T0-KbC" firstAttribute="top" secondItem="dmF-gy-Gsh" secondAttribute="bottom" constant="30" id="GvB-RM-sdG"/>
+                    <constraint firstAttribute="trailing" secondItem="KXv-pg-hzV" secondAttribute="trailing" constant="30" id="JoP-sq-77t"/>
+                    <constraint firstAttribute="bottom" secondItem="LVZ-2O-PJa" secondAttribute="bottom" constant="30" id="QQW-V3-gCj"/>
+                    <constraint firstItem="yxO-3J-HXz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="TQx-mX-2bV"/>
+                    <constraint firstItem="cC0-gB-XLk" firstAttribute="centerY" secondItem="dmF-gy-Gsh" secondAttribute="centerY" constant="20" id="UY8-6u-8Bg"/>
+                    <constraint firstItem="KXv-pg-hzV" firstAttribute="leading" secondItem="RO1-T0-KbC" secondAttribute="trailing" constant="30" id="X7O-UU-Gbi"/>
+                    <constraint firstItem="yxO-3J-HXz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Zjh-wD-Dea"/>
+                    <constraint firstItem="5u0-Ui-xqC" firstAttribute="centerX" secondItem="KXv-pg-hzV" secondAttribute="centerX" constant="-20" id="kSh-l3-RPW"/>
+                    <constraint firstItem="dmF-gy-Gsh" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="nn8-Gf-z53"/>
+                    <constraint firstItem="cC0-gB-XLk" firstAttribute="centerX" secondItem="yxO-3J-HXz" secondAttribute="centerX" constant="20" id="p4Q-Hm-8aF"/>
+                    <constraint firstItem="hbO-DD-gLy" firstAttribute="centerX" secondItem="cC0-gB-XLk" secondAttribute="centerX" id="rKy-UH-Qn8"/>
+                    <constraint firstItem="RO1-T0-KbC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rbc-16-qSh"/>
+                    <constraint firstItem="hbO-DD-gLy" firstAttribute="centerY" secondItem="5u0-Ui-xqC" secondAttribute="centerY" id="uyz-bO-ZgD"/>
+                    <constraint firstItem="LVZ-2O-PJa" firstAttribute="top" secondItem="RO1-T0-KbC" secondAttribute="bottom" constant="30" id="ze1-UH-8uv"/>
+                    <constraint firstItem="Zyj-Fk-yuU" firstAttribute="centerX" secondItem="5u0-Ui-xqC" secondAttribute="centerX" id="zpO-A6-ndn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="centreBtn" destination="RO1-T0-KbC" id="6kk-5y-Ma3"/>
+                <outlet property="foodBtn" destination="cC0-gB-XLk" id="VsA-Jc-02H"/>
+                <outlet property="hotelBtn" destination="Zyj-Fk-yuU" id="Vua-KL-SOJ"/>
+                <outlet property="position" destination="5u0-Ui-xqC" id="Uqb-7u-94p"/>
+                <outlet property="shopBtn" destination="hbO-DD-gLy" id="wUi-lq-fzp"/>
+            </connections>
+            <point key="canvasLocation" x="-905" y="-73"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="food.png" width="30" height="30"/>
+        <image name="hotel.png" width="30" height="30"/>
+        <image name="shoping.png" width="30" height="30"/>
+        <image name="trive.png" width="30" height="30"/>
+    </resources>
+</document>
